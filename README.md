@@ -1,49 +1,77 @@
 # Naesungmath
 
-[![install size](https://packagephobia.com/badge?p=naesungmath@3.0.1)](https://packagephobia.com/result?p=naesungmath@3.0.1)
+[![npm version](https://img.shields.io/npm/v/naesungmath.svg)](https://www.npmjs.com/package/naesungmath)
+[![install size](https://packagephobia.com/badge?p=naesungmath)](https://packagephobia.com/result?p=naesungmath)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+> A collection of mathematical formulas based on "Science is Magic! Let's memorize spells <Math Formula>" distributed by the Korean Mathematical Society and the Math Instructor Research Group.
+> 
+> 대한수학회와 수학강사연구모임이 배포한 `과학은 마법이다! 주문을 외워보자 <수학공식>`을 기준으로 만든 수학 라이브러리입니다.
 
-대한수학회와 수학강사연구모임이 배포한 `과학은 마법이다! 주문을 외워보자 <수학공식>`을 기준으로 만들었습니다.
+This project aims to implement essential mathematical formulas in **JavaScript/TypeScript**.
+Current Progress: **117 / 221** formulas completed (52.9%).
 
-We made it based on `<Math Formula>`, which was distributed by the Korean Mathematical Society and Korean Mathematical Instructor Research Group.
+---
 
-공식 221개 중 117개 완료 (52.9%)
+## 📒 Table of Contents
 
-[![image](https://nodei.co/npm/naesungmath.png?downloads=true&stars=true)](https://nodei.co/npm/naesungmath/)
+- [Install](#-install)
+- [Usage](#-usage)
+- [Contributing](#-contributing)
+- [Maintainers](#-maintainers)
+- [License](#-license)
 
-# Update 3.0
-- Switch to a Typescript to increase readability when using code.
-- Modify code to work automatically.
-- 
+---
 
-## Contributing
+## 📦 Install
 
+Using npm:
+```bash
+npm install naesungmath
+```
+Using yarn:
+```bash
+yarn add naesungmath
+```
+
+---
+
+## 🚀 Usage
+
+### JavaScript
+```javascript
+import { geometricProgressionSum } from 'naesungmath';
+
+console.log(geometricProgressionSum(1, 2, 10));
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please feel free to open issues or submit Pull Requests.
 Review and accept Issue and Pull Request boldly.
 
-For more information, contact minseo0388@daum.net or 129dot03@kakao.com.
+For more information, contact **minseo0388@daum.net** or **129dot03@kakao.com**.
 
-## npm package
+---
 
-Published as `Naesungmath` at npmjs.org
+## 👤 Maintainers
 
-The latest version is `3.0.1`.
+- [@minseo0388 (Choi Minseo)](https://github.com/minseo0388)
 
-### Add package
+## 🌟 Contributors
 
-`npm i naesungmath`
+Thanks to these wonderful people:
+- [@pmh_only](https://github.com/pmh-only)
+- [@AkiaCode](https://github.com/akiacode)
+- [@DPS0340](https://github.com/dps0340)
+- [@comjun04](https://github.com/comjun04)
 
-Or with yarn:
+---
 
-`yarn add naesungmath`
+## 📝 License
 
-## Maintainer
+This project is licensed under the [GPLv3 License](LICENSE).
 
-[@minseo0388(Choi Minseo)](https://github.com/minseo0388)
-
-## Contributors
-
-[@pmh_only](https://github.com/pmh-only) [@AkiaCode](https://github.com/akiacode) [@DPS0340](https://github.com/dps0340) [@comjun04](https://github.com/comjun04)
-
-## License
-
-MIT License
+Copyright (c) 2020-2026 Choi Minseo
